@@ -1,0 +1,810 @@
+
+<!doctype html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>UI Kit</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+<div id="app">
+    <div class="container">
+        <div class="ui-title">Logók</div>
+        <div class="ui-logo">
+            <div class="row">
+                <div class="col-6">
+                    <div class="ui-subtitle">Szöveg nélkül</div>
+                    <img src="assets/images/logos/profession.svg" style="width: auto; height: 36px;">
+                </div>
+                <div class="col-6">
+                    <div class="ui-subtitle">Szöveggel</div>
+                    <img src="assets/images/logos/profession-wide.svg" style="width: auto; height: 36px;">
+                </div>
+            </div>
+        </div>
+
+        <!-- TYPOGRAPHY -->
+        <div class="ui-title">Tipográfia</div>
+
+        <div class="ui-subtitle">Montserrat Medium</div>
+        <div class="ui-demo-text font-size-22">
+            <p>AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVXYZ<br>aábcdeéfghiíjklmnoóöőpqrstuúüűvxyz<br>123456789/-@£€$</p>
+        </div>
+
+        <div class="ui-subtitle">Montserrat Bold</div>
+        <div class="ui-demo-text font-size-22">
+            <p class="font-weight-bold">AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVXYZ<br>aábcdeéfghiíjklmnoóöőpqrstuúüűvxyz<br>123456789/-@£€$</p>
+        </div>
+
+        <!-- COLORS -->
+        <div class="ui-title">Színhasználat</div>
+        <div class="row">
+            <div class="col-5">
+                <div class="ui-subtitle">Gradiensek</div>
+                <div class="ui-color-list mb-6">
+                    <div class="row mb-4">
+                        <div class="col-6">
+                            <div class="ui-color-list__sample bg-gradient-brand rounded-circle"></div>
+                            <div class="ui-color-list__info">
+                                <div class="ui-color-list__name">Brand gradiens</div>
+                                <div class="ui-color-list__code">HEX: 37AFF0 - 50D7BE</div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="ui-color-list__sample bg-gradient-brand-inverse rounded-circle"></div>
+                            <div class="ui-color-list__info">
+                                <div class="ui-color-list__name">Brand inverz gradiens</div>
+                                <div class="ui-color-list__code">HEX: 50D7BE - 37AFF0</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-6">
+                            <div class="ui-color-list__sample bg-gradient-brand-40 rounded-circle"></div>
+                            <div class="ui-color-list__info">
+                                <div class="ui-color-list__name">Brand gradiens 40%</div>
+                                <div class="ui-color-list__code">HEX: 37AFF0 - 50D7BE (40%)</div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="ui-color-list__sample bg-gradient-brand-20 rounded-circle"></div>
+                            <div class="ui-color-list__info">
+                                <div class="ui-color-list__name">Brand gradiens 20%</div>
+                                <div class="ui-color-list__code">HEX: 37AFF0 - 50D7BE (20%)</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="ui-color-list__sample bg-gradient-bw rounded-circle"></div>
+                            <div class="ui-color-list__info">
+                                <div class="ui-color-list__name">Brand gradiens BW</div>
+                                <div class="ui-color-list__code">HEX: FFFFFF - FCFCFC</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-7">
+                <div class="ui-subtitle">Teli színek</div>
+                <div class="ui-color-list">
+                    <div class="row">
+                        
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-primary rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Primary Color</div>
+                                    <div class="ui-color-list__code">HEX: 4A589F</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-dark rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Fekete</div>
+                                    <div class="ui-color-list__code">HEX: 323C50</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-light rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Szürke</div>
+                                    <div class="ui-color-list__code">HEX: ADB1B9</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-pink rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Rózsaszín</div>
+                                    <div class="ui-color-list__code">HEX: FF3366</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-purple-light rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Halvány lila</div>
+                                    <div class="ui-color-list__code">HEX: 6F7BB3</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-gray-light rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Piszkos fehér</div>
+                                    <div class="ui-color-list__code">HEX: F5F5F6</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-success rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Zöld (siker)</div>
+                                    <div class="ui-color-list__code">HEX: 4CAF50</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-warning rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Sárga (hiba)</div>
+                                    <div class="ui-color-list__code">HEX: FFC200</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-danger rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Hiba (Sikertelen)</div>
+                                    <div class="ui-color-list__code">HEX: D32E30</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-turquoise rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Türkiz</div>
+                                    <div class="ui-color-list__code">HEX: 50D7BE</div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 mb-4">
+                                                                    <div class="ui-color-list__sample bg-info rounded-circle"></div>
+                                                                <div class="ui-color-list__info">
+                                    <div class="ui-color-list__name">Kék</div>
+                                    <div class="ui-color-list__code">HEX: 37AFF0</div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- APEX Icons -->
+        <div class="ui-title">APEX ikonhasználat</div>
+        <div class="d-flex flex-wrap justify-content-start mb-4">
+            
+                            <i class="mr-2 mb-2 font-size-22 fa fa-arrow-left" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-filter" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-plus" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-edit" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-angle-down" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-clipboard-arrow-up" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-padlock" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-plus-circle" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-arrow-right" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-trash-o" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-pencil" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-gear" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-copy" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-eye" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-file-text-o" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-calendar-o" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-paperclip" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-crosshairs" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-upload" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-bolt" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-check" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-share" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-cut" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-suitcase" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-search" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-eye-slash" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-share2" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-camera" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-mobile" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-map-marker" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-clock-o" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-home" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-signal" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-user-graduate" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-mortar-board" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-user" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-envelope-o" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-briefcase" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-bullhorn" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-users" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-trophy" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-line-chart" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-stethoscope" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-flag-o" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-birthday-cake" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-design" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-users-chat" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-balance-scale" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-military-vehicle" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-tags" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-cutlery" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-building-o" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-desktop" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-bullseye" aria-hidden="true"></i>                            <i class="mr-2 mb-2 font-size-22 fa fa-flask" aria-hidden="true"></i>                    </div>
+
+        <!-- PRIMARY CTA -->
+        <div class="ui-title">Elsődleges CTA</div>
+        <div class="d-flex">
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Button</div>
+                <button class="btn btn-primary">Kattints ide</button>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Link</div>
+                <a href="#" class="btn btn-primary">Kattints ide</a>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Button</div>
+                <button class="btn btn-primary" disabled>Kattints ide</button>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Link</div>
+                <a href="#" class="btn btn-primary disabled">Kattints ide</a>
+            </div>
+        </div>
+
+        <!-- SECONDARY CTA -->
+        <div class="ui-title">Másodlagos CTA</div>
+        <div class="ui-mini-title">Egyszerű másodlagos CTA</div>
+        <div class="d-flex mb-4">
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Button</div>
+                <button class="btn btn-with-icon btn-outline-primary"><i class="btn-icon fa fa-trash-o" aria-hidden="true"></i> Törlés</button>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Link</div>
+                <a href="#" class="btn btn-with-icon btn-outline-primary"><i class="btn-icon fa fa-trash-o" aria-hidden="true"></i> Törlés</a>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Tiltott állapot - Button</div>
+                <button class="btn btn-with-icon btn-outline-primary" disabled><i class="btn-icon fa fa-trash-o" aria-hidden="true"></i> Törlés</button>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Tiltott állapot - Link</div>
+                <a href="#" class="btn btn-with-icon btn-outline-primary disabled"><i class="btn-icon fa fa-trash-o" aria-hidden="true"></i> Törlés</a>
+            </div>
+        </div>
+
+        <div class="ui-mini-title">Egyedi kedvencenek mentés CTA</div>
+        <div class="d-flex mb-4">
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Button</div>
+                <button class="btn btn-with-icon btn-outline-primary"><i class="btn-icon fa fa-star-o" aria-hidden="true"></i> Mentés</button>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Link</div>
+                <a href="#" class="btn btn-with-icon btn-outline-primary"><i class="btn-icon fa fa-star-o" aria-hidden="true"></i> Mentés</a>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Tiltott állapot - Button</div>
+                <button class="btn btn-with-icon btn-outline-primary" disabled><i class="btn-icon text-warning fa fa-star" aria-hidden="true"></i> Mentés</button>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Tiltott állapot - Link</div>
+                <a href="#" class="btn btn-with-icon btn-outline-primary disabled"><i class="btn-icon text-warning fa fa-star" aria-hidden="true"></i> Mentés</a>
+            </div>
+        </div>
+
+        <!-- FEATURED CTA -->
+        <div class="ui-title">Kiemelt funkció CTA</div>
+
+        <div class="ui-mini-title">Egyszerű kiemelt CTA</div>
+        <div class="d-flex mb-4">
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Button</div>
+                <button class="btn btn-secondary">Kattints ide</button>
+            </div>
+            <div class="w-25">
+                <div class="ui-subtitle">Alapértelmezett - Link</div>
+                <a href="#" class="btn btn-secondary">Kattints ide</a>
+            </div>
+        </div>
+
+        <!-- FEATURED CTA WITH INFO -->
+        <div class="ui-mini-title">Kiemelt funkció CTA magyarázattal</div>
+        <div class="row mb-4">
+            <div class="col-3">
+                <div class="ui-subtitle">Alapértelmezett - Button</div>
+                <button class="btn btn-secondary btn-info-text" style="min-width: 210px;">Belépés<span>álláskeresőknek</span></button>
+            </div>
+            <div class="col-3">
+                <div class="ui-subtitle">Alapértelmezett - Link</div>
+                <a href="#" class="btn btn-secondary btn-info-text" style="min-width: 210px;">Belépés<span>álláskeresőknek</span></a>
+            </div>
+        </div>
+
+        <!-- FEATURED CTA BIG -->
+        <div class="ui-mini-title">Megnagyobbított kiemelt funkció CTA</div>
+        <div class="row mb-4">
+            <div class="col-4">
+                <div class="ui-subtitle">Alapértelmezett - Button</div>
+                <button class="btn btn-lg btn-secondary">Jelentkezés elküldése</button>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Alapértelmezett - Link</div>
+                <a href="#" class="btn btn-lg btn-secondary">Jelentkezés elküldése</a>
+            </div>
+        </div>
+
+        <!-- LINKS -->
+        <div class="ui-title">Kattintható szöveg</div>
+
+        <div class="ui-mini-title">Egyszerű kattintható szöveg (Link)</div>
+        <div class="row">
+            <div class="col-6">
+                <div class="ui-subtitle">Alapértelmezett</div>
+                <a href="#">Még több állásajánlat</a>
+            </div>
+            <div class="col-6">
+                <div class="ui-subtitle">Szövegen belül</div>
+                <p>A következő linek érhető el: <a href="#">kattints ide a megtekintéshez</a></p>
+            </div>
+        </div>
+
+        <div class="ui-mini-title">Bold kattintható szöveg (Link)</div>
+        <div class="row mb-4">
+            <div class="col-6">
+                <div class="ui-subtitle">Alapértelmezett</div>
+                <a href="#"><strong>Még több állásajánlat</strong></a>
+            </div>
+            <div class="col-6">
+                <div class="ui-subtitle">Szövegen belül</div>
+                <p>A következő linek érhető el: <a href="#"><strong>kattints ide a megtekintéshez</strong></a></p>
+            </div>
+        </div>
+
+        <div class="ui-mini-title">Bold kattintható szöveg ikonnal</div>
+        <div class="mb-4">
+            <div class="ui-subtitle">Alapértelmezett</div>
+            <a href="#" class="link-icon"><i class="fa fa-edit" aria-hidden="true"></i> <strong>Adataim szerkesztése</strong></a>
+        </div>
+
+        <div class="ui-mini-title">Kattintható ikon (Akció)</div>
+        <div class="mb-4">
+            <div class="ui-subtitle">Alapértelmezett</div>
+            <a href="#" class="link-button"><i class="fa fa-download-alt" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="ui-mini-title">Kattintható ikon (Social)</div>
+        <div class="mb-4">
+            <div class="ui-subtitle">Alapértelmezett</div>
+            <a href="#" class="link-button"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="ui-title">Szöveges beviteli mezők</div>
+
+        <div class="ui-mini-title">Egyszerű beviteli mező</div>
+        <div class="row mb-4">
+            <div class="col-4">
+                <div class="ui-subtitle">Alapértelmezett</div>
+                <form>
+                    <label>Default input</label>
+                    <input class="form-control" type="text" placeholder="Default input">
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Kitöltött</div>
+                <form>
+                    <label>Default input</label>
+                    <input class="form-control" type="text" placeholder="Default input" value="Default input">
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Tiltott állapot</div>
+                <form>
+                    <label>Default input</label>
+                    <input disabled="" type="text" class="form-control" placeholder="Disabled input">
+                </form>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-4">
+                <div class="ui-subtitle">Alapértelmezett</div>
+                <form>
+                    <label for="exampleEmail1">Default input</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-envelope-o"></i></span>
+                        </div>
+                        <input id="exampleEmail1" class="form-control" type="text" placeholder="Kérjük adja meg e-mail címét">
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Kitöltött</div>
+                <form>
+                    <label for="exampleEmail1">Default input</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-envelope-o"></i></span>
+                        </div>
+                        <input id="exampleEmail1" class="form-control" type="text" placeholder="Kérjük adja meg e-mail címét" value="valami@mail.com">
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Tiltott állapot</div>
+                <form>
+                    <label for="exampleEmail1">Default input</label>
+                    <div class="input-group disabled">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-envelope-o"></i></span>
+                        </div>
+                        <input id="exampleEmail1" class="form-control" type="text" placeholder="Kérjük adja meg e-mail címét" disabled>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="ui-mini-title">Prediktív beviteli mező akcióikonnal</div>
+        <div class="row">
+            <div class="col-4">
+                <div class="ui-subtitle">Alapértelmezett</div>
+                <form>
+                    <label for="exampleLocation1">Default input</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-map-marker"></i></span>
+                        </div>
+                        <input id="exampleLocation1" class="form-control" type="text" placeholder="Település">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fa fa-crosshairs" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Kitöltött</div>
+                <form>
+                    <label for="exampleLocation2">Default input</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-map-marker"></i></span>
+                        </div>
+                        <input id="exampleLocation2" class="form-control" type="text" placeholder="Település" value="Budapest">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fa fa-crosshairs" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Tiltott állapot</div>
+                <form>
+                    <label for="exampleLocation3">Default input</label>
+                    <div class="input-group disabled">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-map-marker"></i></span>
+                        </div>
+                        <input id="exampleLocation3" class="form-control" type="text" placeholder="Település" disabled>
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fa fa-crosshairs" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="ui-title">Legördülő beviteli mező</div>
+
+        <div class="ui-mini-title">Magyarázat nélküli legördülő beviteli mező</div>
+        <div class="row mb-4">
+            <div class="col-4">
+                <div class="ui-subtitle">Alapértelmezett</div>
+                <form>
+                    <select class="form-control">
+                        <option>Kérjük válasszon</option>
+                        <option>Egyetem</option>
+                        <option>Főiskola</option>
+                        <option>Szakközépiskola</option>
+                        <option>Érettségi</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Kitöltött</div>
+                <form>
+                    <select class="form-control">
+                        <option>Kérjük válasszon</option>
+                        <option>Egyetem</option>
+                        <option>Főiskola</option>
+                        <option>Szakközépiskola</option>
+                        <option>Érettségi</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Tiltott állapot</div>
+                <form>
+                    <select class="form-control" disabled>
+                        <option>Kérjük válasszon</option>
+                        <option>Egyetem</option>
+                        <option>Főiskola</option>
+                        <option>Szakközépiskola</option>
+                        <option>Érettségi</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+
+        <div class="ui-mini-title">Alapértelmezett legördülő beviteli mező</div>
+        <div class="row mb-4">
+            <div class="col-4">
+                <div class="ui-subtitle">Alapértelmezett</div>
+                <form>
+                    <label for="exampleSelect1">Default input</label>
+                    <div class="input-group input-group-inset">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-mortar-board"></i></span>
+                        </div>
+                        <select id="exampleSelect1" class="form-control border-left-0">
+                            <option value="">Kérjük válasszon</option>
+                            <option value="value1">Egyetem</option>
+                            <option value="value2">Főiskola</option>
+                            <option value="value3">Szakközépiskola</option>
+                            <option value="value4">Érettségi</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Kitöltött</div>
+                <form>
+                    <label for="exampleSelect2">Default input</label>
+                    <div class="input-group input-group-inset">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-mortar-board"></i></span>
+                        </div>
+                        <select id="exampleSelect2" class="form-control border-left-0">
+                            <option value="">Kérjük válasszon</option>
+                            <option value="value1" selected>Egyetem</option>
+                            <option value="value2">Főiskola</option>
+                            <option value="value3">Szakközépiskola</option>
+                            <option value="value4">Érettségi</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Tiltott állapot</div>
+                <form>
+                    <label for="exampleSelect3">Default input</label>
+                    <div class="input-group input-group-inset disabled">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-mortar-board"></i></span>
+                        </div>
+                        <select id="exampleSelect3" class="form-control border-left-0" disabled>
+                            <option value="">Kérjük válasszon</option>
+                            <option value="value1">Egyetem</option>
+                            <option value="value2">Főiskola</option>
+                            <option value="value3">Szakközépiskola</option>
+                            <option value="value4">Érettségi</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- FORM CHECKBOX & RADIOS -->
+        <div class="ui-title">Kattintható beviteli mezők</div>
+
+        <div class="ui-mini-title">Checkbox elem</div>
+        <div class="ui-subtitle">Alapértelmezett</div>
+        <form>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Teljes munkaidő</label>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                <label class="form-check-label" for="defaultCheck2">Részmunkaidő 6 óra</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                <label class="form-check-label" for="defaultCheck3">Adóról szerencsesütik rádzsák félelmetes megállók csapdák
+                    zsugáink fülesek alvajárók jatagánok legelfogadhatóbb kackiás kitartóbb futópadok legminimálisabb falevelekké
+                    elnyomóbb legesleganalfabétább koreográfus.</label>
+            </div>
+        </form>
+
+        <div class="ui-mini-title">Rádiógomb</div>
+        <div class="ui-subtitle">Alapértelmezett</div>
+        <form class="mb-4">
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="radio" name="radioOptions" value="option1" id="defaultRadio1" checked>
+                <label class="form-check-label" for="defaultRadio1">Teljes munkaidő</label>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="radio" name="radioOptions" value="option2" id="defaultRadio2">
+                <label class="form-check-label" for="defaultRadio2">Részmunkaidő 6 óra</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="radioOptions" value="option3" id="defaultRadio3">
+                <label class="form-check-label" for="defaultRadio3">Adóról szerencsesütik rádzsák félelmetes megállók csapdák
+                    zsugáink fülesek alvajárók jatagánok legelfogadhatóbb kackiás kitartóbb futópadok legminimálisabb falevelekké
+                    elnyomóbb legesleganalfabétább koreográfus.</label>
+            </div>
+        </form>
+
+        <div class="ui-mini-title">Összetett checkbox kitöltőelem</div>
+
+        <div class="form-choices accordion mb-4" id="formChoicesExample">
+            <div class="form-choices-item">
+                <button class="form-choices-toggle" data-toggle="collapse" data-target="#collapseExample0" role="button" aria-expanded="true" aria-controls="collapseExample0">Marketing, Média, PR</button>
+                <div id="collapseExample0" class="form-choices-collapse collapse show" data-parent="#formChoicesExample">
+                    <ul class="form-choices-list">
+                        <li class="form-choices-list-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                <label class="form-check-label" for="defaultCheck4">Grafikus, Multimédia tervező</label>
+                            </div>
+                        </li>
+                        <li class="form-choices-list-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                                <label class="form-check-label" for="defaultCheck5">Projektmenedzsment</label>
+                            </div>
+                        </li>
+                        <li class="form-choices-list-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                                <label class="form-check-label" for="defaultCheck6">Szövegíró</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-choices-item">
+                <button class="form-choices-toggle collapsed" data-toggle="collapse" data-target="#collapseExample1" role="button" aria-expanded="true" aria-controls="collapseExample1">Non-profit, Civil szervezet</button>
+                <div id="collapseExample1" class="form-choices-collapse collapse" data-parent="#formChoicesExample">
+                    <ul class="form-choices-list">
+                        <li class="form-choices-list-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck01">
+                                <label class="form-check-label" for="defaultCheck01">tesztelek 1</label>
+                            </div>
+                        </li>
+                        <li class="form-choices-list-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck02">
+                                <label class="form-check-label" for="defaultCheck02">tesztelek 2</label>
+                            </div>
+                        </li>
+                        <li class="form-choices-list-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck06">
+                                <label class="form-check-label" for="defaultCheck06">tesztelek 3</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-choices-item">
+                <button class="form-choices-toggle collapsed">IT programozás, Fejlesztés</button>
+            </div>
+            <div class="form-choices-item">
+                <button class="form-choices-toggle collapsed">IT üzemeltetés, Telekom</button>
+            </div>
+        </div>
+
+        <!-- FORM RANGE SLIDER -->
+        <div class="ui-mini-title">Csúszka kitöltőelem</div>
+        <form class="mb-4">
+            <div class="row">
+                <div class="col-6">
+                    <div class="ui-subtitle">Üres állapot</div>
+                    <div class="form-group">
+                        <label for="formControlRange1">Example Range input</label>
+                        <input type="range" id="formControlRange1" class="form-control-range" min="0" max="100" step="5">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="ui-subtitle">Kitöltött állapot</div>
+                    <div class="form-group">
+                        <label for="formControlRange2">Example Range input</label>
+                        <input type="range" id="formControlRange2" class="form-control-range" min="0" max="100" step="5" value="30">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!-- HEADER NAVIGATION -->
+        <div class="ui-title">Fejlécnavigáció</div>
+        <div class="ui-mini-title">Személyes profil menü</div>
+        <div class="personalMenu mb-4">
+            <div class="personalMenu__item">
+                <div class="ui-subtitle">Alapértelmezett</div>
+                <div class="personalMenu">
+                    <div class="personalMenu__avatar rounded-circle">
+                        <img src="assets/images/blankAvatar.png" alt="">
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Pályázataim</a>
+                            <a class="dropdown-item" href="#">Mentett állások</a>
+                            <a class="dropdown-item" href="#">Mentett keresések</a>
+                            <a class="dropdown-item" href="#">Beállítasim oldal</a>
+                            <a class="dropdown-item" href="#">Adatok módosítása</a>
+                            <a class="dropdown-item" href="#">Jelszó módosítása</a>
+                            <a class="dropdown-item" href="#">Jelentkezési fileok</a>
+                            <a class="dropdown-item" href="#">Kilépés</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui-mini-title">Másodlagos fejlécnavigációs elem</div>
+        <div class="row">
+            <div class="col-4">
+                <div class="ui-subtitle">Alapértelmezett</div>
+                <div class="bg-dark text-white text-uppercase text-center f14 p-5">Mentett Állások</div>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Hover</div>
+                <div class="bg-dark text-white text-uppercase text-center f14 p-5" style="opacity: 0.8;">Mentett Állások</div>
+            </div>
+            <div class="col-4">
+                <div class="ui-subtitle">Aktív állapot</div>
+                <div class="bg-gradient-brand-40 text-uppercase text-center text-dark font-weight-bold f14 p-5">Mentett Állások</div>
+            </div>
+        </div>
+
+        <!-- ALERTS & NOTIFICATIONS -->
+        <div class="ui-title">Üzenetek és figyelmeztetések</div>
+
+        <div class="ui-mini-title">Figyelmeztető üzenetek</div>
+        <div class="mb-3">
+            <div class="ui-subtitle">Figyelmeztetés (Alert)</div>
+
+            <div class="alert alert-warning " role="alert">
+    
+            <i class="alert-icon fa fa-exclamation-circle" aria-hidden="true"></i>    
+    <div class="alert-content">
+                    <h4 class="alert-heading">Önnek nincs megjeleníthető pályázata</h4>
+        
+        <p>Még nem jelentkezett egy állásra sem a Profession.hu-n keresztül, vagy minden pályázatát törölte rendszerünkből.</p>
+    </div>
+</div>
+        </div>
+
+        <div class="mb-3">
+            <div class="ui-subtitle">Figyelmeztetés (Success)</div>
+
+            <div class="alert alert-success " role="alert">
+    
+            <i class="alert-icon fa fa-check-circle-o" aria-hidden="true"></i>    
+    <div class="alert-content">
+                    <h4 class="alert-heading">Az önéletrajza jelenleg aktív!</h4>
+        
+        <p>Adatbázisunkban a munkáltatók által önéletrajza kereshető!</p>
+    </div>
+</div>
+        </div>
+
+        <div class="mb-3 d-none">
+            <div class="ui-subtitle">Figyelmeztetés (Danger)</div>
+
+            <div class="alert alert-danger " role="alert">
+    
+            <i class="alert-icon fa fa-warning" aria-hidden="true"></i>    
+    <div class="alert-content">
+                    <h4 class="alert-heading">Hiba történt!</h4>
+        
+        <p>Hiba részletesebb leírása itt olvasható.</p>
+    </div>
+</div>
+        </div>
+
+        <div class="mb-3">
+            <div class="ui-subtitle">Irány nélküli, kiemelt figyelmeztető üzenet</div>
+
+            <div class="alert alert-light " role="alert">
+    
+    
+    <div class="alert-content">
+                    <h4 class="alert-heading">Jelentkezés módja</h4>
+        
+        <p>A fényképpel ellátott önéletrajzokat, „Mérnök – üzletkötő” megjegyzéssel, motivációs levéllel várjuk. A pályázatokat a "Jelentkezem" gombra kattintva kérjük továbbítani.</p>
+    </div>
+</div>
+        </div>
+
+        <div class="ui-mini-title">Figyelmeztető üzenetek (Tooltips)</div>
+        <div class="row mb-4">
+            <div class="col-6">
+                <div class="ui-subtitle">Alulra zárt</div>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Jelölje be, hogy milyen fő, illetve alkategóriák hirdetései érdeklik. A főkategóriák előtt látható + ikonnal az alkategóriák kibonthatók és külön bejelölhetők.">Tooltip alul</button>
+            </div>
+            <div class="col-6">
+                <div class="ui-subtitle">Jobbra zárt</div>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="" data-original-title="Jelölje be, hogy milyen fő, illetve alkategóriák hirdetései érdeklik. A főkategóriák előtt látható + ikonnal az alkategóriák kibonthatók és külön bejelölhetők.">
+                    Tooltip jobbra
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/manifest.js"></script>
+<script src="assets/js/vendor.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

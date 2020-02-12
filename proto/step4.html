@@ -1,0 +1,214 @@
+
+<!doctype html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Munkahely értékelése - Profession.hu</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/light-modal.min.css">
+</head>
+<body>
+<div id="app" style="padding-bottom: 5rem">
+
+    <header id="header" class="site-header">
+        <div class="header_wrapper">
+            <div class="d-lg-none">
+                <div class="offcanvas-collapse-wrapper"> </div>
+                    <nav class="navbar navbar-expand-xl main-menu mobile-menu bg-white">
+                        <a class="navbar-brand" href="https://www.profession.hu" title="Profession.hu - állás, munka, állásajánlatok, önéletrajz">Profession</a>
+                        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                        <div class="navbar-nav-profile__avatar top_profile_avatar" style="background-image: url(assets/images/blankAvatar.png)"></div></button>
+                        <div class="navbar-border"></div>
+                    </nav>
+                </div>
+            </div>
+            <div class="navbar-primary d-none d-lg-block">
+                <nav class="navbar navbar-expand-lg main-menu">
+                    <div class="container">
+                        <a class="navbar-brand flex-column flex-sm-row align-items-baseline" href="/"><span>Profession</span></a>
+                        <div class="flex-column">
+                            <ul class="navbar-nav navbar-nav-profile">
+                                <li class="nav-item dropdown">
+                                    <div class="navbar-nav-profile__avatar" style="background-image: url(assets/images/blankAvatar.png)">
+                                    </div>
+                                    <a class="nav-link dropdown-toggle link-icon" href="#" id="employeeMenuDropdownTrigger" role="button" data-target="#employeeMenuDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-inline-block">Teszt Elek<i class="fa fa-caret-down"></i></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+    </header>
+    <div class="header_border"></div>
+
+    <div class="jumbotron jumbotron-fluid bg-gradient-brand-20 jumbotron-padding">
+        <div class="container">
+            <div class="company-logo"></div>
+            <div class="company-header">
+                <h1 class="font-weight-bold h1">Teszt munkahely értékelése</h1>
+                <p class="m-b-0" style="font-size: 16px;">Teszt pozíció</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="progress_bar">
+        <div class="container container-padding">
+            <img class="desktop-only" src="assets/images/progress_bar_4.svg">
+            <div class="d-flex">
+                <div class="w-25 pb-padding">
+                    <div class="pb-done"></div>
+                </div>
+                <div class="w-25 pb-padding">
+                    <div class="pb-done"></div>
+                </div>
+                <div class="w-25 pb-padding">
+                    <div class="pb-done"></div>
+                </div>
+                <div class="w-25 pb-padding">
+                    <div class="pb-active"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="container container-padding">
+            <div class="w-100 m-0-a">
+                <h2 class="m-b-24 mobile-only">Szöveges vélemény</h2>
+                  
+                <div class="alert m-b-48 mobile-only" role="alert" style="background-color: #F5F5F6;">
+                    <i class="alert-icon fa fa-exclamation-circle" aria-hidden="true"></i>    
+                    <div class="alert-content">
+                        <p>Véleménye név nélkül jelenik meg, azonban az értékelés törlésére és moderálására fenn tarjuk a jogot. Kérjük, olvassa el, hogy <b><a href="#unique-id">mire figyeljen szöveges vélemény írásakor</a></b>.</p>
+                    </div>
+                </div>
+
+                <div class="szoveges-container">
+                    <div class="szoveges-form">
+                        <div class="m-b-48">
+                            <h3 class="m-b-16">Milyen pozitív tapasztalatokat szerzett?</h3>
+                            <textarea rows="5" class="form-control m-b-8" type="text" placeholder="Mondja el, ami miatt jó ezen munkahelyen dolgozni."></textarea>
+                            <p style="color: #adadad;">Írjon legalább 50 karaktert.</p>
+                        </div>
+
+                        <div class="m-b-48">
+                            <h3 class="m-b-16">Milyen negatív tapasztalatokat szerzett?</h3>
+                            <textarea rows="5" class="form-control m-b-8" type="text" placeholder="Mondja el, hogy mivel nem volt elégedett."></textarea>
+                            <p style="color: #adadad;">Írjon legalább 50 karaktert.</p>
+                        </div>
+
+                        <div class="m-b-48">
+                            <h3>Vélemény rövid összefoglalója</h3>
+                            <p class="m-b-16">A fent leírt tapasztalatai alapján foglalja össsze néhány szóban élményét.</p>
+                            <textarea rows="2" class="form-control m-b-8" type="text" placeholder="Pl. Kedves kollégák, közepes fizetés, feszes munkatempó."></textarea>
+                        </div>
+
+                        <div class="m-b-48">
+                            <h3 class="m-b-16">Ajánlaná-e a munkahelyet ismerőseinek?</h3>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="radio" name="radioOptions" value="option1" id="defaultRadio1">
+                                <label class="form-check-label" for="defaultRadio1">Igen, ajánlanám</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioOptions" value="option2" id="defaultRadio2">
+                                <label class="form-check-label" for="defaultRadio2">Nem, nem ajánlanám</label>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="form-check m-t-24 m-b-32">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1" style="font-size: 16px;">Megerősítem, hogy a véleményem nem tartalmaz valótlan, vagy személyiségi jogokat sértő információt.</label>
+                        </div>
+
+                        <div class="text-center m-t-40">
+                            <a href="success.html" class="btn btn-secondary m-b-16">Elküldöm az értékelést</a>
+                            <div class="m-b-16"></div>
+                            <a href="step3.html">Vissza</a>
+                        </div>
+
+                    </div>
+
+                    <div class="szoveges-sidebar">
+                        <div class="sidebar-content">
+                            <h4 style="font-size: 16px; line-height: 24px;" class="m-b-16">Mire figyeljen szöveges vélemény írásakor?</h4>
+                            <ul>
+                                <li>Koncentráljon a cégre és a cég alkalmazottjaként szerzett tapasztalatokra.</li>
+                                <li>Az ön személyes véleményére vagyunk kíváncsiak, azonban, kérjük próbálja meg objektív szemszögből is megvizsgálni a munkahelyet.</li>
+                                <li>Ne adjon meg személyazonosságra vonatkozó információkat, például neveket.</li>
+                                <li>Ne osszon meg üzleti titkokat és bizalmas információkat.</li>
+                                <li>Tartózkodjon a személyeskedéstől, káromkodástól és sértő szavak használatától.</li>
+                                <li>Legyen őszinte, itt nem kell elrejtenie semmit, azonban mindig figyeljen arra, hogy valóságos, megtörtént dolgokat osszon meg.</li>
+                                <li style="list-style: none;"><p class="font-weight-bold m-b-24">Köszönjük, hogy  megosztja véleményét, mely segítséget nyújt más munkakeresőknek ahhoz, hogy ideális munkahelyet találjanak!</p></li>
+                            </ul>
+                            <hr>
+                            <div class="alert " role="alert">
+                                <i class="alert-icon fa fa-exclamation-circle" aria-hidden="true"></i>    
+                                <div class="alert-content">
+                                    <p>Véleménye név nélkül jelenik meg, azonban az értékelés törlésére és moderálására fenn tarjuk a jogot.  További információkért, kérjük, olvassa el az ezzel kapcsolatos <a href="#">irányelveket</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="light-modal" id="unique-id" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+    <div class="light-modal-content animated zoomInUp">
+        <!-- light modal header -->
+        <div class="light-modal-header">
+            <h3 class="light-modal-heading">Mire figyeljen szöveges vélemény írásakor?</h3>
+            <a href="#" class="light-modal-close-icon" aria-label="close">&times;</a>
+        </div>
+        <!-- light modal body -->
+        <div class="light-modal-body">
+            <ul>
+                <li>Koncentráljon a cégre és a cég alkalmazottjaként szerzett tapasztalatokra.</li>
+                <li>Az ön személyes véleményére vagyunk kíváncsiak, azonban, kérjük próbálja meg objektív szemszögből is megvizsgálni a munkahelyet.</li>
+                <li>Ne adjon meg személyazonosságra vonatkozó információkat, például neveket.</li>
+                <li>Ne osszon meg üzleti titkokat és bizalmas információkat.</li>
+                <li>Tartózkodjon a személyeskedéstől, káromkodástól és sértő szavak használatától.</li>
+                <li>Legyen őszinte, itt nem kell elrejtenie semmit, azonban mindig figyeljen arra, hogy valóságos, megtörtént dolgokat osszon meg.</li>
+                <li style="list-style: none;"><p class="font-weight-bold m-b-24">Köszönjük, hogy  megosztja véleményét, mely segítséget nyújt más munkakeresőknek ahhoz, hogy ideális munkahelyet találjanak!</p></li>
+            </ul>
+            <hr>
+            <div class="alert" role="alert" style="background-color: #F5F5F6;">
+                <i class="alert-icon fa fa-exclamation-circle" aria-hidden="true"></i>    
+                <div class="alert-content">
+                    <p>Véleménye név nélkül jelenik meg, azonban az értékelés törlésére és moderálására fenn tarjuk a jogot.  További információkért, kérjük, olvassa el az ezzel kapcsolatos <a href="#">irányelveket</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Scripts -->   
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="assets/js/manifest.js"></script>
+<script src="assets/js/vendor.js"></script>
+<script src="assets/js/app.js"></script>
+   
+
+</body>
+</html>

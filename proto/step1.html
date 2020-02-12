@@ -1,0 +1,155 @@
+
+<!doctype html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Munkahely értékelése - Profession.hu</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+<div id="app" style="padding-bottom: 5rem">
+
+    <header id="header" class="site-header">
+        <div class="header_wrapper">
+            <div class="d-lg-none">
+                <div class="offcanvas-collapse-wrapper"> </div>
+                    <nav class="navbar navbar-expand-xl main-menu mobile-menu bg-white">
+                        <a class="navbar-brand" href="https://www.profession.hu" title="Profession.hu - állás, munka, állásajánlatok, önéletrajz">Profession</a>
+                        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                        <div class="navbar-nav-profile__avatar top_profile_avatar" style="background-image: url(assets/images/blankAvatar.png)"></div></button>
+                        <div class="navbar-border"></div>
+                    </nav>
+                </div>
+            </div>
+            <div class="navbar-primary d-none d-lg-block">
+                <nav class="navbar navbar-expand-lg main-menu">
+                    <div class="container">
+                        <a class="navbar-brand flex-column flex-sm-row align-items-baseline" href="/"><span>Profession</span></a>
+                        <div class="flex-column">
+                            <ul class="navbar-nav navbar-nav-profile">
+                                <li class="nav-item dropdown">
+                                    <div class="navbar-nav-profile__avatar" style="background-image: url(assets/images/blankAvatar.png)">
+                                    </div>
+                                    <a class="nav-link dropdown-toggle link-icon" href="#" id="employeeMenuDropdownTrigger" role="button" data-target="#employeeMenuDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-inline-block">Teszt Elek<i class="fa fa-caret-down"></i></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+    </header>
+    <div class="header_border"></div>
+
+    <div class="jumbotron jumbotron-fluid bg-gradient-brand-20 jumbotron-padding">
+        <div class="container">
+            <h1 class="font-weight-bold h1">Munkahely értékelése</h1>
+            <p class="lead mb-0 lead_p">Értékelje és mondja el véleményét korábbi vagy jelenlegi munkahelyéről. <span class="font-weight-bold">Értékelése anonim</span> és segítséget nyújt a munkakeresőknek ahhoz, hogy ideális munkahelyet találjanak. A kitöltés <span class="font-weight-bold">pár percet</span> vesz igénybe.</p>
+        </div>
+    </div>
+    <div class="progress_bar">
+        <div class="container container-padding">
+            <img class="desktop-only" src="assets/images/progress_bar_1.svg">
+            <div class="d-flex">
+                <div class="w-25 pb-padding">
+                    <div class="pb-active"></div>
+                </div>
+                <div class="w-25 pb-padding">
+                    <div class="pb-gray"></div>
+                </div>
+                <div class="w-25 pb-padding">
+                    <div class="pb-gray"></div>
+                </div>
+                <div class="w-25 pb-padding">
+                    <div class="pb-gray"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="container container-padding">
+            <div class="w-50 m-0-a">
+                <h2 class="m-b-24 mobile-only">Munkakör és munkahely</h2>
+                <div class="input-group m-b-8">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i aria-hidden="true" class="fa fa-briefcase"></i></span>
+                    </div>
+                    <input id="exampleEmail1" class="form-control form-font-size" type="text" placeholder="Munkakör">
+                </div>
+
+                <div class="input-group input-group-inset m-b-8">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i aria-hidden="true" class="fa fa-clock-o"></i></span>
+                    </div>
+                    <select id="exampleSelect1" class="form-control border-left-0 form-font-size" style="opacity: 0.5;">
+                        <option value="">Munkarend</option>
+                        <option value="value1">Teljes munkaidő</option>
+                        <option value="value2">Részmunkaidő</option>
+                    </select>
+                </div>
+
+                <div class="input-group m-b-8">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i aria-hidden="true" class="fa fa-building-o"></i></span>
+                    </div>
+                    <input id="exampleEmail1" class="form-control form-font-size" type="text" placeholder="Munkahely">
+                </div>
+
+                <div class="input-group m-b-8">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i aria-hidden="true" class="fa fa-map-marker"></i></span>
+                    </div>
+                    <input id="exampleEmail1" class="form-control form-font-size" type="text" placeholder="Munkavégzés helye">
+                </div>
+
+                <div class="half-input hi-m-r">
+                    <div class="input-group m-b-24">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-calendar-o"></i></span>
+                        </div>
+                        <input id="exampleEmail1" class="form-control form-font-size" type="text" placeholder="Mettől">
+                    </div>
+                </div>  
+
+                <div class="half-input">
+                    <div class="input-group m-b-24">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i aria-hidden="true" class="fa fa-calendar-o"></i></span>
+                        </div>
+                        <input id="exampleEmail1" class="form-control form-font-size" type="text" placeholder="Meddig">
+                    </div>
+                </div>
+        
+                <div class="form-check m-b-32">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 16px;">Jelenleg is itt dolgozom</label>
+                </div>
+
+                <div class="text-center">
+                    <a href="step2.html" class="btn btn-primary m-b-16">Következő lépés</a>
+                    <p style="color: #848A96">Még 3 lépés van hátra.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/manifest.js"></script>
+<script src="assets/js/vendor.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

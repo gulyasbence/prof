@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="907px" height="90px" viewBox="0 0 907 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Profession-vélemények---UI-Desktop---960px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lépés-4---Értékelő-form---Desktop" transform="translate(-181.000000, -232.000000)">
+            <g id="Group-3" transform="translate(179.000000, 232.000000)">
+                <text id="Munkakör-és-munkahel" font-family="Montserrat-Medium, Montserrat Medium" font-size="16" font-weight="normal" line-spacing="24" fill="#323C50">
+                    <tspan x="0.696" y="59">Munkakör és</tspan>
+                    <tspan x="6.976" y="83">munkahely</tspan>
+                </text>
+                <circle id="Oval" stroke="#4A589F" stroke-width="1.5" cx="53" cy="18" r="17.25"></circle>
+                <circle id="Oval-Copy" fill="#50D7BE" cx="53" cy="18" r="14"></circle>
+                <circle id="Oval-Copy-3" fill="#50D7BE" cx="325" cy="18" r="14"></circle>
+                <circle id="Oval-Copy-4" fill="#50D7BE" cx="597" cy="18" r="14"></circle>
+                <text id="Munkahely-értékelése" font-family="Montserrat-Medium, Montserrat Medium" font-size="16" font-weight="normal" line-spacing="24" fill="#323C50">
+                    <tspan x="279.292" y="59">Munkahely</tspan>
+                    <tspan x="282.46" y="83">értékelése</tspan>
+                </text>
+                <text id="Munkakultúra-és-előn" font-family="Montserrat-Medium, Montserrat Medium" font-size="16" font-weight="normal" line-spacing="24" fill="#323C50">
+                    <tspan x="539.536" y="59">Munkakultúra</tspan>
+                    <tspan x="554.008" y="83">és előnyök</tspan>
+                </text>
+                <text id="Szöveges-vélemény" font-family="Montserrat-Bold, Montserrat" font-size="16" font-weight="bold" line-spacing="24" fill="#323C50">
+                    <tspan x="828.88" y="59">Szöveges</tspan>
+                    <tspan x="827.112" y="83">vélemény</tspan>
+                </text>
+                <line x1="359" y1="17.5" x2="563" y2="17.5" id="Line-Copy-4" stroke="#4A589F" stroke-width="1.5" stroke-linecap="square"></line>
+                <text id="Icon" font-family="font-apex" font-size="22" font-weight="normal" line-spacing="28" fill="#FFFFFF">
+                    <tspan x="42" y="28"></tspan>
+                </text>
+                <text id="Icon-Copy" font-family="font-apex" font-size="22" font-weight="normal" line-spacing="28" fill="#FFFFFF">
+                    <tspan x="314" y="28"></tspan>
+                </text>
+                <text id="Icon-Copy-2" font-family="font-apex" font-size="22" font-weight="normal" line-spacing="28" fill="#FFFFFF">
+                    <tspan x="586" y="28"></tspan>
+                </text>
+                <circle id="Oval" stroke="#4A589F" stroke-width="1.5" cx="325" cy="18" r="17.25"></circle>
+                <circle id="Oval-Copy-8" stroke="#4A589F" stroke-width="1.5" cx="597" cy="18" r="17.25"></circle>
+                <circle id="Oval-Copy-6" stroke="#4A589F" stroke-width="1.5" cx="869" cy="18" r="17.25"></circle>
+                <circle id="Oval-Copy-7" fill="#4A589F" cx="869" cy="18" r="8"></circle>
+                <line x1="87" y1="17.5" x2="291" y2="17.5" id="Line-Copy-3" stroke="#4A589F" stroke-width="1.5" stroke-linecap="square"></line>
+                <line x1="631" y1="17.5" x2="835" y2="17.5" id="Line-Copy-5" stroke="#4A589F" stroke-width="1.5" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>
