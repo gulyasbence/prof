@@ -229,6 +229,7 @@
 .szoveges-container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1em;
 }
 .szoveges-form{
     grid-column: 1/7;
@@ -237,6 +238,26 @@
 }
 .szoveges-sidebar{
     grid-column: 8/13;
+    align-self: start;
+    justify-self: stretch;
+}
+.onethirdcenter{
+    grid-column: 5/9;
+    align-self: start;
+    justify-self: stretch;
+}
+.g1-4{
+    grid-column: 1/5;
+    align-self: start;
+    justify-self: stretch;
+}
+.g4-8{
+    grid-column: 5/9;
+    align-self: start;
+    justify-self: stretch;
+}
+.g8-12{
+    grid-column: 9/13;
     align-self: start;
     justify-self: stretch;
 }
@@ -407,6 +428,26 @@ li {
         font-size: 18px;
     }
     .szoveges-form{
+        grid-column: 1/13;
+        align-self: start;
+        justify-self: stretch;
+    }
+    .onethirdcenter{
+        grid-column: 1/13;
+        align-self: start;
+        justify-self: stretch;
+    }
+    .g1-4{
+        grid-column: 1/13;
+        align-self: start;
+        justify-self: stretch;
+    }
+    .g4-8{
+        grid-column: 1/13;
+        align-self: start;
+        justify-self: stretch;
+    }
+    .g8-12{
         grid-column: 1/13;
         align-self: start;
         justify-self: stretch;
